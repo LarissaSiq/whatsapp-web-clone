@@ -5,7 +5,7 @@ Clone do Whatsapp Web que possibilita usuários logados iniciarem conversas uns 
 
 ---
 
-### Links para a aplicação:
+### Link para a aplicação:
 [Whatsapp Web](https://whatsapp-clone-larissasiq.web.app/)
 ## :woman_technologist: Feito por:
 [Larissa Siqueira](https://github.com/LarissaSiq)
