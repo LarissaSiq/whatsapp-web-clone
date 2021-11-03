@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-clone",
   "version": "0.1.0",
-  "homepage": "https://github.com/LarissaSiq/whatsapp-web-clone",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.5.0",

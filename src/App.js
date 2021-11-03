@@ -8,7 +8,7 @@ import ChatListItem from './components/ChatListItem/index';
 import ChatIntro from './components/ChatIntro/index';
 import ChatWindow from './components/ChatWindow/index';
 import NewChat from './components/NewChat/index';
-import Login from './components/Login/index';
+import Login from './components/Login';
 import Api from './services/Api';
 
 function App() {
@@ -23,7 +23,8 @@ function App() {
       let unsub = Api.onChatList(user.id, setChatList);
       return unsub
     }
-  }, [user])
+  }, [user]);
+
   const handleNewChat = () => {
     setShowNewChat(true)
   };
@@ -88,5 +89,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
