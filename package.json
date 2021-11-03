@@ -1,5 +1,6 @@
 {
   "name": "whatsapp-clone",
+  "homepage": "https://whatsapp-clone-larissasiq.web.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
