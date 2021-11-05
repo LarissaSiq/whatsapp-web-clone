@@ -22,6 +22,9 @@ export function NewChat({
         getList();
     }, [user]);
 
+    useEffect(() => {
+    }, [list]);
+
     const addNewChat = async (user2) => {
         await Api.addNewChat(user, user2);
         handleClose();
